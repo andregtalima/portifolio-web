@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 24px;
+}
+
+.home a {
+  text-decoration: none;
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn button {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: var(--gradiente-color);
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: var(--button-white);
+}

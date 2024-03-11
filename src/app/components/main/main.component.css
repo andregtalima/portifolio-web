@@ -1,0 +1,46 @@
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.info span {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: var(--secondary-text);
+  line-height: 24px;
+}
+
+.info h1 {
+  background: var(--gradiente-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.info p {
+  text-align: center;
+  color: var(--primary-text);
+  max-width: 320px;
+}
+
+.info button {
+  border: none;
+  background: var(--gradiente-color);
+  color: var(--button-white);
+  padding: 12px 20px;
+  border-radius: 8px;
+}
