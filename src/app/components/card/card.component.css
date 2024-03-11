@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  background-color: #f0f0f0;
+  box-shadow: 0.6166666746139526px 0.6166666746139526px 9.866666793823242px 0px
+    #28262c26;
+  padding: 16px;
+  gap: 12px;
+}
+
+.card h3 {
+  color: var(--secondary-text);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.card .skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.card .skills span {
+  border: 2px solid var(--primary-color);
+  color: var(--button-white);
+  background-color: var(--primary-color);
+  font-size: 8px;
+  line-height: 5px;
+  padding: 4px 2px;
+  text-transform: uppercase;
+}
+
+.card .skills p {
+  color: var(--primary-text);
+  line-height: 26px;
+}
